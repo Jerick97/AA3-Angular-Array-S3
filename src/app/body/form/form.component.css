@@ -1,0 +1,14 @@
+
+/*Estilo Circular al botón*/
+.btn-circle.btn-xl {
+    background-color: #ff5e00;
+    border-radius: 60px;
+    font-size: 15px;
+    height: 80px;
+    padding: 13px 18px;
+    text-align: center;
+    width: 80px;
+}
+span{
+    color:white;
+}

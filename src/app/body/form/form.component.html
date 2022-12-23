@@ -1,0 +1,24 @@
+<div class="container border">
+    <div class="row bg-light">
+        <div class="col-8 offset-2">
+            <div class="text-center">
+                <h1>{{title}}</h1>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col-4 offset-4 p-2">
+                <input type="text" class="form-control" #nombreC placeholder="Javascript">
+            </div>
+            <div class="col-4">
+                <button type="button" (click)="addCurso(nombreC.value)" class="btn btn-circle btn-xl"><span>Add</span></button>
+            </div>
+            <div class="col-4 offset-4">
+                <ul>
+                    <div *ngFor="let nom of cursos">
+                        <li>{{nom}}</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
